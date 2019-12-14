@@ -1,0 +1,301 @@
+.carousel-item {
+  height: 88vh;
+}
+
+.carousel-image-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/one.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-image-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/two.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.carousel-image-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url("../img/three.jpg");
+  background-size: cover;
+}
+
+.first {
+  margin-bottom: 250px;
+}
+
+.open {
+  font-size: 45px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.highlight {
+  color: #d7263d;
+}
+
+.Ozzy {
+  color: #d7263d;
+}
+
+.second {
+  margin-bottom: 250px;
+}
+
+.mid {
+  font-size: 45px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.green {
+  color: #cd5d67;
+}
+
+.red {
+  color: #d7263d;
+}
+
+.third {
+  margin-bottom: 250px;
+}
+
+.bot {
+  font-size: 45px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  position: relative;
+}
+
+#info {
+  background-color: #08090a;
+  font-family: "Montserrat", sans-serif;
+}
+
+#skills {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+#portfolio {
+  font-family: "Montserrat", sans-serif;
+}
+
+#contact {
+  font-family: "Montserrat", sans-serif;
+}
+
+.left {
+  padding-top: 90px;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-bottom: 90px;
+}
+
+.right {
+  padding-top: 90px;
+  padding-left: 250px;
+  padding-bottom: 90px;
+}
+
+.a {
+  margin-bottom: 35px;
+}
+
+.z {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.navbar {
+  background-color: #d7263d !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar a {
+  color: white !important;
+}
+
+.br {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 1.5rem;
+}
+
+.about {
+  font-size: 62px;
+  font-weight: 900;
+  padding: 10px 30px;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  background-color: #d7263d;
+  margin-top: 75px;
+  color: white;
+}
+
+.name {
+  margin-top: 5px;
+  font-size: 16px;
+  background-color: #5c5c5c;
+  padding: 0px 20px;
+  width: 550px;
+  height: 70px;
+  border-radius: 4px;
+  color: #fff;
+  line-height: 70px;
+}
+
+.text-about {
+  color: white;
+  font-size: 16px;
+  padding-top: 20px;
+  line-height: 32px;
+}
+
+.wow {
+  margin-top: 50px;
+}
+
+.custombtn {
+  background-color: #5c5c5c;
+  height: 50px;
+  border-radius: 3px;
+  width: 240px;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 40px;
+  line-height: 1.42857143;
+}
+
+.custombtn:hover {
+  background-color: #d7263d;
+}
+
+.custombtn .icons {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.custombtn .icons i {
+  font-size: 24px;
+  line-height: 45px;
+  padding-left: 15px;
+  padding-top: 2px;
+}
+
+.custombtn .text {
+  padding-left: 12px;
+  text-transform: uppercase;
+  font-size: 15px;
+  float: left;
+}
+.resume .text {
+  margin-top: 15px;
+}
+
+.skills-one {
+  font-size: 62px;
+  font-weight: 900;
+  padding: 10px 30px;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  background-color: #d7263d;
+  margin-left: 175px;
+}
+
+.wax {
+  margin-top: 5px;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(92, 92, 92);
+  width: 550px;
+  height: 70px;
+  color: rgb(255, 255, 255);
+  line-height: 70px;
+  padding: 0px 20px;
+  border-radius: 4px;
+}
+
+.wax-p {
+  color: white;
+  font-size: 26px;
+  padding-top: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.special {
+  color: white;
+}
+
+#portfolio {
+  background-color: #212529;
+  color: white;
+  padding-bottom: 270px;
+}
+
+.card-con {
+  background-color: #212529;
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 20;
+  left: 0;
+  right: 0;
+}
+
+.card {
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  position: relative;
+  transition: all 2s ease;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+}
+.back {
+  position: relative;
+  bottom: 400px;
+  transform: rotateY(180deg);
+}
+
+#contact {
+  background-color: black;
+  color: white;
+}
+
+.get {
+  margin-left: 350px;
+}
+
+.mad {
+  text-align: center;
+}
+
+.submit {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #d7263d;
+  border-radius: 5%;
+  margin-top: 20px;
+}
