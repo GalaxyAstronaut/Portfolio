@@ -1,5 +1,11 @@
-def small_number(arr)
-    arr.any?(1..10)
-end
+def remove_duplicates(array)
+    non_duplicates = []
+    i = 0
 
-puts small_number([12,11,21])
+    array.each do |el|
+        non_duplicates << el unless non_duplicates.includes?(el)
+
+    end
+
+
+end
